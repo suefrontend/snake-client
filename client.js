@@ -14,7 +14,7 @@ const connect = function () {
   });
 
   conn.on("connect", () => {
-    conn.write("Move: up");
+    conn.write("Say: Snake!");
   });
 
   conn.on("data", (data) => {
